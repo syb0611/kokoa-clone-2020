@@ -29,6 +29,15 @@
     margin-right: 5px;
 }
 
-.status-bar__column .fa-battery-full {
+@keyframes batteryFlicker {
+    0% {} 
+    50% {
+        color: tomato;
+    }
+    100% {}
+}
+
+.status-bar__column .fa-battery-quarter {
     margin: 0px 5px;
+    animation: batteryFlicker 1s linear infinite;
 }
