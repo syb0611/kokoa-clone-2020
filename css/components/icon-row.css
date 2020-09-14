@@ -9,6 +9,11 @@
     align-items: center;
 }
 
+.icon-row__icon:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 .icon-row__icon i {
     font-size: 35px;
 }

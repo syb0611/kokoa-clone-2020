@@ -16,6 +16,10 @@
     position: relative;
 }
 
+.screen-header__icons span:hover {
+    cursor: pointer;
+}
+
 .screen-header__new {
     position: absolute;
     right: -6px;

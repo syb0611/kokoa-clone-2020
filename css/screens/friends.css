@@ -28,6 +28,10 @@
     color: rgba(0, 0, 0, 0.5);
 }
 
+.friends-screen__channel-header i:hover {
+    cursor: pointer;
+}
+
 @keyframes hideSplashScreen {
     from {
         opacity: 1;

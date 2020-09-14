@@ -2,6 +2,10 @@
     justify-content: space-between;
 }
 
+.user-component:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
 .user-component,
 .user-component__column:first-child {
     display: flex;
